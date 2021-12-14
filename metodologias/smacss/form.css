@@ -1,0 +1,19 @@
+form{
+
+}
+
+form.is-invalid{
+    //vermelho
+}
+
+form.is-valid{
+    //verde
+}
+
+input.is-invalid{
+
+}
+
+input.is-valid{
+    
+}

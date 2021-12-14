@@ -1,0 +1,52 @@
+.current-link {
+  color: #f78104 !important;
+  font-weight: bold;
+}
+
+.pure-menu-active > .pure-menu-link,
+.pure-menu-link:focus,
+.pure-menu-link:hover {
+  background-color: #f78104;
+  background-color: #005f60;
+  background-color: #008083;
+}
+
+.phone {
+  &_title {
+    width: 500px;
+    @media (max-width: 500px) {
+      width: auto;
+    }
+    body.is_dark & {
+      color: white;
+    }
+  }
+  img {
+    display: block;
+  }
+}
+
+.title {
+  font-size: var(--font);
+
+  @at-root html {
+    --font: 16px;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply py-2 
+           px-4 
+           bg-blue-500 
+           text-white 
+           font-semibold 
+           rounded-lg 
+           shadow-md 
+           hover:bg-blue-700 
+           focus:outline-none 
+           focus:ring-2 
+           focus:ring-blue-400 
+           focus:ring-opacity-75;
+  }
+}

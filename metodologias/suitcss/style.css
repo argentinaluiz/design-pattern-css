@@ -1,0 +1,44 @@
+
+.btn{
+    font-size: 10px;
+}
+
+.btn .btn-primary{
+
+}
+
+.btn .btn-primary .enc1 .enc2 .enc3{
+
+}
+
+//Web Components - W3C
+
+//Componentes
+//template
+//logica javascript
+//estilo
+//shadow-dom
+
+:root {
+    --btn-backgroundColor: red
+    --ComponentName-descendant-backgroundColor
+    --ComponentName--modifier-backgroundColor
+    --ComponentName-onHover-backgroundColor
+    --ComponentName-descendant-onHover-backgroundColor
+}
+
+<input type="text"/>
+
+.btn{
+ font-size: 10px
+}
+
+.btn--primary{
+
+}
+
+.btn--secondary{
+
+}
+
+<button class="btn btn--primary">
